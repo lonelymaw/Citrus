@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Crummish",
+      "uniqueId": "fb291436-b5ce-434f-b45c-82f1534107b1"
+    },
+    "time": 1656289648326,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/QsjslV6XKw"
+    }
+  }
+]

@@ -1,0 +1,595 @@
+{
+  "minecraft": {
+    "version": "1.18.2",
+    "modLoaders": [
+      {
+        "id": "forge-40.1.52",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "overrides": "overrides",
+  "manifestVersion": 1,
+  "version": "1.0.0",
+  "author": "",
+  "name": "Citrus",
+  "files": [
+    {
+      "projectID": 32274,
+      "fileID": 3820040,
+      "required": true,
+      "__meta": {
+        "name": "JourneyMap"
+      }
+    },
+    {
+      "projectID": 60089,
+      "fileID": 3578801,
+      "required": true,
+      "__meta": {
+        "name": "Mouse Tweaks"
+      }
+    },
+    {
+      "projectID": 69162,
+      "fileID": 3838025,
+      "required": true,
+      "__meta": {
+        "name": "CoFH Core"
+      }
+    },
+    {
+      "projectID": 69163,
+      "fileID": 3837868,
+      "required": true,
+      "__meta": {
+        "name": "Thermal Expansion",
+        "dependencies": [
+          222880
+        ]
+      }
+    },
+    {
+      "projectID": 74072,
+      "fileID": 3829979,
+      "required": true,
+      "__meta": {
+        "name": "Tinkers Construct",
+        "dependencies": [
+          74924
+        ]
+      }
+    },
+    {
+      "projectID": 74924,
+      "fileID": 3829975,
+      "required": true,
+      "__meta": {
+        "name": "Mantle"
+      }
+    },
+    {
+      "projectID": 222880,
+      "fileID": 3837827,
+      "required": true,
+      "__meta": {
+        "name": "Thermal Foundation",
+        "dependencies": [
+          69162
+        ]
+      }
+    },
+    {
+      "projectID": 224791,
+      "fileID": 3847579,
+      "required": true,
+      "__meta": {
+        "name": "Blood Magic ",
+        "dependencies": [
+          306770
+        ]
+      }
+    },
+    {
+      "projectID": 225635,
+      "fileID": 3834303,
+      "required": true,
+      "__meta": {
+        "name": "AgriCraft",
+        "dependencies": [
+          251396
+        ]
+      }
+    },
+    {
+      "projectID": 225643,
+      "fileID": 3847141,
+      "required": true,
+      "__meta": {
+        "name": "Botania",
+        "dependencies": [
+          309927,
+          306770
+        ]
+      }
+    },
+    {
+      "projectID": 227639,
+      "fileID": 3828399,
+      "required": true,
+      "__meta": {
+        "name": "The Twilight Forest"
+      }
+    },
+    {
+      "projectID": 228525,
+      "fileID": 3832270,
+      "required": true,
+      "__meta": {
+        "name": "Bookshelf"
+      }
+    },
+    {
+      "projectID": 228756,
+      "fileID": 3795374,
+      "required": true,
+      "__meta": {
+        "name": "Iron Chests"
+      }
+    },
+    {
+      "projectID": 230976,
+      "fileID": 3693140,
+      "required": true,
+      "__meta": {
+        "name": "Fast Leaf Decay"
+      }
+    },
+    {
+      "projectID": 231484,
+      "fileID": 3830862,
+      "required": true,
+      "__meta": {
+        "name": "Cooking for Blockheads",
+        "dependencies": [
+          531761
+        ]
+      }
+    },
+    {
+      "projectID": 231951,
+      "fileID": 3823066,
+      "required": true,
+      "__meta": {
+        "name": "Immersive Engineering"
+      }
+    },
+    {
+      "projectID": 233255,
+      "fileID": 3693931,
+      "required": true,
+      "__meta": {
+        "name": "Login Shield"
+      }
+    },
+    {
+      "projectID": 236484,
+      "fileID": 3769750,
+      "required": true,
+      "__meta": {
+        "name": "Chunk Animator"
+      }
+    },
+    {
+      "projectID": 237307,
+      "fileID": 3738144,
+      "required": true,
+      "__meta": {
+        "name": "Cosmetic Armor Reworked"
+      }
+    },
+    {
+      "projectID": 238222,
+      "fileID": 3847103,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Items (JEI)"
+      }
+    },
+    {
+      "projectID": 238372,
+      "fileID": 3593906,
+      "required": true,
+      "__meta": {
+        "name": "Neat"
+      }
+    },
+    {
+      "projectID": 238551,
+      "fileID": 3694403,
+      "required": true,
+      "__meta": {
+        "name": "GraveStone Mod"
+      }
+    },
+    {
+      "projectID": 238747,
+      "fileID": 3574005,
+      "required": true,
+      "__meta": {
+        "name": "Mod Name Tooltip"
+      }
+    },
+    {
+      "projectID": 240630,
+      "fileID": 3831559,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Resources (JER)",
+        "dependencies": [
+          238222
+        ]
+      }
+    },
+    {
+      "projectID": 240633,
+      "fileID": 3543137,
+      "required": true,
+      "__meta": {
+        "name": "Inventory Sorter"
+      }
+    },
+    {
+      "projectID": 243121,
+      "fileID": 3840125,
+      "required": true,
+      "__meta": {
+        "name": "Quark",
+        "dependencies": [
+          250363
+        ]
+      }
+    },
+    {
+      "projectID": 245211,
+      "fileID": 3671753,
+      "required": true,
+      "__meta": {
+        "name": "The One Probe"
+      }
+    },
+    {
+      "projectID": 248787,
+      "fileID": 3686482,
+      "required": true,
+      "__meta": {
+        "name": "AppleSkin"
+      }
+    },
+    {
+      "projectID": 250363,
+      "fileID": 3642382,
+      "required": true,
+      "__meta": {
+        "name": "AutoRegLib"
+      }
+    },
+    {
+      "projectID": 250398,
+      "fileID": 3758406,
+      "required": true,
+      "__meta": {
+        "name": "Controlling"
+      }
+    },
+    {
+      "projectID": 250419,
+      "fileID": 3821023,
+      "required": true,
+      "__meta": {
+        "name": "Enchantment Descriptions",
+        "dependencies": [
+          228525,
+          228525
+        ]
+      }
+    },
+    {
+      "projectID": 251396,
+      "fileID": 3834298,
+      "required": true,
+      "__meta": {
+        "name": "InfinityLib"
+      }
+    },
+    {
+      "projectID": 254284,
+      "fileID": 3738299,
+      "required": true,
+      "__meta": {
+        "name": "AmbientSounds 5",
+        "dependencies": [
+          257814
+        ]
+      }
+    },
+    {
+      "projectID": 256717,
+      "fileID": 3833879,
+      "required": true,
+      "__meta": {
+        "name": "Clumps"
+      }
+    },
+    {
+      "projectID": 257814,
+      "fileID": 3834521,
+      "required": true,
+      "__meta": {
+        "name": "CreativeCore"
+      }
+    },
+    {
+      "projectID": 265917,
+      "fileID": 3812175,
+      "required": true,
+      "__meta": {
+        "name": "JEI Integration",
+        "dependencies": [
+          238222
+        ]
+      }
+    },
+    {
+      "projectID": 266515,
+      "fileID": 3848558,
+      "required": true,
+      "__meta": {
+        "name": "Industrial Foregoing",
+        "dependencies": [
+          287342,
+          306770
+        ]
+      }
+    },
+    {
+      "projectID": 270441,
+      "fileID": 3543951,
+      "required": true,
+      "__meta": {
+        "name": "ItemPhysic Lite"
+      }
+    },
+    {
+      "projectID": 271740,
+      "fileID": 3717855,
+      "required": true,
+      "__meta": {
+        "name": "Toast Control",
+        "dependencies": [
+          283644
+        ]
+      }
+    },
+    {
+      "projectID": 271835,
+      "fileID": 3837822,
+      "required": true,
+      "__meta": {
+        "name": "Thermal Cultivation",
+        "dependencies": [
+          222880
+        ]
+      }
+    },
+    {
+      "projectID": 274259,
+      "fileID": 3674344,
+      "required": true,
+      "__meta": {
+        "name": "Carry On"
+      }
+    },
+    {
+      "projectID": 276951,
+      "fileID": 3682307,
+      "required": true,
+      "__meta": {
+        "name": "Comforts (Forge)"
+      }
+    },
+    {
+      "projectID": 280294,
+      "fileID": 3680770,
+      "required": true,
+      "__meta": {
+        "name": "FPS Reducer"
+      }
+    },
+    {
+      "projectID": 280510,
+      "fileID": 3801087,
+      "required": true,
+      "__meta": {
+        "name": "AttributeFix"
+      }
+    },
+    {
+      "projectID": 283644,
+      "fileID": 3845997,
+      "required": true,
+      "__meta": {
+        "name": "Placebo"
+      }
+    },
+    {
+      "projectID": 287342,
+      "fileID": 3819942,
+      "required": true,
+      "__meta": {
+        "name": "Titanium"
+      }
+    },
+    {
+      "projectID": 288885,
+      "fileID": 3717873,
+      "required": true,
+      "__meta": {
+        "name": "FastWorkbench",
+        "dependencies": [
+          283644
+        ]
+      }
+    },
+    {
+      "projectID": 306770,
+      "fileID": 3846086,
+      "required": true,
+      "__meta": {
+        "name": "Patchouli"
+      }
+    },
+    {
+      "projectID": 306935,
+      "fileID": 3812852,
+      "required": true,
+      "__meta": {
+        "name": "Super Factory Manager ( SFM )"
+      }
+    },
+    {
+      "projectID": 309927,
+      "fileID": 3841948,
+      "required": true,
+      "__meta": {
+        "name": "Curios API (Forge)"
+      }
+    },
+    {
+      "projectID": 361579,
+      "fileID": 3824951,
+      "required": true,
+      "__meta": {
+        "name": "spark"
+      }
+    },
+    {
+      "projectID": 368825,
+      "fileID": 3830891,
+      "required": true,
+      "__meta": {
+        "name": "Inventory Essentials",
+        "dependencies": [
+          531761
+        ]
+      }
+    },
+    {
+      "projectID": 372534,
+      "fileID": 3740562,
+      "required": true,
+      "__meta": {
+        "name": "Pam's HarvestCraft 2 - Food Core"
+      }
+    },
+    {
+      "projectID": 391382,
+      "fileID": 3639155,
+      "required": true,
+      "__meta": {
+        "name": "More Overlays Updated"
+      }
+    },
+    {
+      "projectID": 402231,
+      "fileID": 3740472,
+      "required": true,
+      "__meta": {
+        "name": "Pam's HarvestCraft 2 - Food Extended",
+        "dependencies": [
+          372534
+        ]
+      }
+    },
+    {
+      "projectID": 411816,
+      "fileID": 3785422,
+      "required": true,
+      "__meta": {
+        "name": "Simple Discord RPC [Forge/Fabric/Quilt]"
+      }
+    },
+    {
+      "projectID": 423421,
+      "fileID": 3627356,
+      "required": true,
+      "__meta": {
+        "name": "Jump Over Fences"
+      }
+    },
+    {
+      "projectID": 457570,
+      "fileID": 3721946,
+      "required": true,
+      "__meta": {
+        "name": "Configured"
+      }
+    },
+    {
+      "projectID": 499261,
+      "fileID": 3838741,
+      "required": true,
+      "__meta": {
+        "name": "AgriCraft OptiFine Compat"
+      }
+    },
+    {
+      "projectID": 506948,
+      "fileID": 3798193,
+      "required": true,
+      "__meta": {
+        "name": "JER Integration",
+        "dependencies": [
+          238222,
+          240630
+        ]
+      }
+    },
+    {
+      "projectID": 531761,
+      "fileID": 3830790,
+      "required": true,
+      "__meta": {
+        "name": "Balm (Forge Edition)"
+      }
+    },
+    {
+      "projectID": 535489,
+      "fileID": 3775919,
+      "required": true,
+      "__meta": {
+        "name": "Sound Physics Remastered"
+      }
+    },
+    {
+      "projectID": 551520,
+      "fileID": 3750013,
+      "required": true,
+      "__meta": {
+        "name": "Better Fps - Render Distance[Forge]"
+      }
+    },
+    {
+      "projectID": 626708,
+      "fileID": 3837830,
+      "required": true,
+      "__meta": {
+        "name": "Thermal Integration",
+        "dependencies": [
+          222880
+        ]
+      }
+    }
+  ]
+}
